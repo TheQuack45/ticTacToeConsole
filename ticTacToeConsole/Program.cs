@@ -10,6 +10,11 @@ namespace ticTacToeConsole
     {
         static void Main(string[] args)
         {
+            Board testBoard = new Board();
+
+            Console.WriteLine(testBoard[0]);
+
+            Console.ReadKey();
         }
     }
 }
